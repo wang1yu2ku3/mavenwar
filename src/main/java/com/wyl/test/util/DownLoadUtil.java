@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class DownLoadUtil {
 	
-	private final static String audio_path="/Users/wangyulin/dev/dict_audio/";
+	private final static String audio_path="D:\\words_dict\\";
 	
 	private final static String audio_url = "http://audio.dict.cn/";
 	

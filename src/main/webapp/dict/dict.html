@@ -237,7 +237,7 @@ function query(){
 function play() {
 	var isNSupportFlash = !! document.createElement("audio").canPlayType && document.createElement("audio").canPlayType("audio/mpeg") && navigator.userAgent.indexOf("Maxthon") < 0;
 	if(isNSupportFlash){
-		var mp3="http://127.0.0.1:8080/bootstrap/3.3.2/example/hare_US_F.mp3";
+		var mp3="http://127.0.0.1:8080/springMVC/bootstrap/3.3.2/example/hare_US_F.mp3";
 		var sound =  new Audio(mp3);
 		//sound.src = mp3;
 		sound.load();
